@@ -1,5 +1,6 @@
 * {
     outline: solid lightskyblue;
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
@@ -17,7 +18,6 @@ body {
 }
 
 .header {
-    /* grid-area: 1 / 2 / 2 / 3; */
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -48,9 +48,10 @@ body {
 .sidebar .navigation,
 .sidebar .settings {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100px 1fr;
 }
 
 .main {
-    /* grid-area: 2 / 2 / 3 / 3; */
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
