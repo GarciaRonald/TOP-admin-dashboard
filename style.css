@@ -1,5 +1,5 @@
 * {
-    outline: solid lightskyblue;
+    /* outline: solid lightskyblue; */
     margin: 0px;
     padding: 0px;
 }
@@ -18,6 +18,9 @@ body {
 
 .header {
     grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .sidebar {
