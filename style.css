@@ -1,5 +1,29 @@
 * {
     outline: solid lightskyblue;
-    margin: 5px 15px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px 3fr;
+}
+
+.header {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.main {
+    grid-area: 2 / 2 / 3 / 3;
 }
