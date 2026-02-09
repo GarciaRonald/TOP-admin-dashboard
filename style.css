@@ -1,5 +1,4 @@
 * {
-    /* outline: solid lightskyblue; */
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -19,7 +18,6 @@ body {
 .grid-container {
     background-color: white;
     width: 80%;
-    /* height: 80%; */
     margin: 25px auto;
     display: grid;
     grid-template-columns: 300px 3fr;
