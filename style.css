@@ -12,9 +12,11 @@ body {
 
 .grid-container {
     width: 80%;
-    margin: auto;
+    /* height: 80%; */
+    margin: 25px auto;
     display: grid;
     grid-template-columns: 300px 3fr;
+    grid-template-rows: 200px 1fr;
 }
 
 .header {
@@ -56,7 +58,12 @@ body {
     grid-template-columns: 4fr 2fr;
 }
 
+.projects h2 {
+    height: 30px;
+}
+
 .projects .cards {
+    height: calc(100% - calc(30px + 25px));
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
