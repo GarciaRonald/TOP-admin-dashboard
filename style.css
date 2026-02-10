@@ -1,5 +1,5 @@
 * {
-    outline: solid lightskyblue;
+    /* outline: solid lightskyblue; */
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -39,10 +39,6 @@ img.dark {
     grid-template-rows: 1fr 1fr;
 }
 
-button {
-    background-color: var(--blue-color);
-}
-
 .title {
     display: grid;
     grid-template-columns: 100px 1fr;
@@ -55,6 +51,15 @@ button {
 .actions {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    background-color: var(--blue-color);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
 }
 
 .sidebar {
