@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+:root {
+    --blue-color: #87cefa;
+}
+
 body {
     background-color: black;
     width: 100vw;
@@ -35,6 +39,10 @@ img.dark {
     grid-template-rows: 1fr 1fr;
 }
 
+button {
+    background-color: var(--blue-color);
+}
+
 .title {
     display: grid;
     grid-template-columns: 100px 1fr;
@@ -54,6 +62,7 @@ img.dark {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    background-color: var(--blue-color);
 }
 
 .sidebar .logo,
