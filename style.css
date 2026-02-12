@@ -6,7 +6,7 @@
 }
 
 :root {
-    --blue-color: #87cefa;
+    --blue-color: #60b7ed;
 }
 
 body {
@@ -75,6 +75,10 @@ button {
 .sidebar .settings {
     display: grid;
     grid-template-columns: 100px 1fr;
+}
+
+.sidebar img {
+    height: 2.5rem;
 }
 
 .main {
