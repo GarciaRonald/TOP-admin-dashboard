@@ -1,5 +1,7 @@
 :root {
     --blue-color: #60b7ed;
+    --gray-color: #ecebeb;
+    --white-color: white;
 }
 
 * {
@@ -85,6 +87,7 @@ button {
 }
 
 .main {
+    background-color: var(--gray-color);
     display: grid;
     grid-template-columns: 4fr 2fr;
 }
@@ -102,12 +105,17 @@ button {
 }
 
 .card {
+    background-color: var(--white-color);
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
 }
 
 .card .links {
     text-align: right;
+}
+
+.add-card {
+    background-color: var(--white-color);
 }
 
 .friend-card {
