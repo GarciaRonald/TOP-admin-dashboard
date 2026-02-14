@@ -1,12 +1,13 @@
+:root {
+    --blue-color: #60b7ed;
+}
+
 * {
     /* outline: solid lightskyblue; */
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
-
-:root {
-    --blue-color: #60b7ed;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
