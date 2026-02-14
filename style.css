@@ -1,6 +1,7 @@
 :root {
     --blue-color: #60b7ed;
     --gray-color: #ecebeb;
+    --dark-gray-color: rgb(102, 99, 99);
     --white-color: white;
 }
 
@@ -88,11 +89,13 @@ button {
 
 .main {
     background-color: var(--gray-color);
+    padding: 30px 25px;
     display: grid;
     grid-template-columns: 4fr 2fr;
 }
 
 .projects h2 {
+    margin-left: 25px;
     height: 30px;
 }
 
@@ -114,17 +117,37 @@ button {
     gap: 5px;
 }
 
+.card p {
+    color: var(--dark-gray-color);
+}
+
 .card .links {
     text-align: right;
 }
 
+.additional {
+    display: grid;
+    grid-template-rows: 55px 1.5fr 55px 1fr;
+}
+
 .add-card {
     background-color: var(--white-color);
+    padding: 30px 25px;
+    border-radius: 10px;
+}
+
+.add-card p {
+    color: var(--dark-gray-color);
+    font-size: 0.9rem;
 }
 
 .friend-card {
     display: grid;
     grid-template-columns: 1fr 3fr;
+}
+
+hr {
+    margin: 20px 0px;
 }
 
 .friend-card .avatar {
