@@ -104,7 +104,7 @@ img.dark {
 
 button {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     background-color: var(--blue-color);
     color: white;
     padding: 10px 30px;
@@ -113,23 +113,42 @@ button {
 }
 
 .sidebar {
+    padding: 20px 50px 20px 0;
     grid-area: 1 / 1 / 3 / 2;
     display: flex;
     flex-direction: column;
+    justify-items: center;
     gap: 50px;
     background-color: var(--blue-color);
+    font-weight: bold;
+    font-size: 1.7rem;
     color: white;
+}
+
+.sidebar .navigation .link,
+.sidebar .settings .link {
+    font-size: 1.4rem;
 }
 
 .sidebar .logo,
 .sidebar .navigation,
 .sidebar .settings {
     display: grid;
+    align-items: center;
     grid-template-columns: 100px 1fr;
+    
+}
+
+.sidebar .icon {
+    text-align: center;
 }
 
 .sidebar img {
-    height: 2.5rem;
+    height: 2rem;
+}
+
+.sidebar .logo .icon img {
+    height: 3.5rem;
 }
 
 .main {
