@@ -23,6 +23,14 @@ img.dark {
     height: 1.5rem;
 }
 
+.avatar-small {
+    height: 50px;
+}
+
+.avatar-big {
+    height: 70px;
+}
+
 .shadow {
     margin-bottom: 5px;
     box-shadow: 5px 5px 10px -5px rgb(79, 79, 79);
@@ -41,6 +49,10 @@ img.dark {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+.notifications {
+    text-align: right;
 }
 
 .title {
@@ -91,7 +103,7 @@ button {
     background-color: var(--gray-color);
     padding: 30px 25px;
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 4fr 1.5fr;
 }
 
 .projects h2 {
@@ -136,7 +148,14 @@ button {
     border-radius: 10px;
 }
 
-.add-card p {
+.friends {
+    height: 100%;
+    display: grid;
+    gap: 1rem;
+}
+
+.add-card p,
+.user {
     color: var(--dark-gray-color);
     font-size: 0.9rem;
 }
@@ -144,6 +163,7 @@ button {
 .friend-card {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    align-items: center;
 }
 
 hr {
