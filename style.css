@@ -58,6 +58,7 @@ img.dark {
 
 button {
     background-color: var(--blue-color);
+    color: white;
     padding: 10px 25px;
     border: none;
     border-radius: 20px;
@@ -69,6 +70,7 @@ button {
     flex-direction: column;
     gap: 50px;
     background-color: var(--blue-color);
+    color: white;
 }
 
 .sidebar .logo,
