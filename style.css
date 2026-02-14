@@ -151,6 +151,17 @@ button {
     height: 3.5rem;
 }
 
+.dev {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.dev a {
+    color: white;
+}
+
 .main {
     background-color: var(--gray-color);
     padding: 30px 25px;
